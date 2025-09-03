@@ -1,0 +1,12 @@
+fastapi
+uvicorn[standard]
+pillow
+python-multipart
+transformers>=4.42
+accelerate>=0.29
+sentencepiece
+timm
+# CUDA 12.1 예시(서버 GPU에 맞게 조정)
+torch==2.3.1+cu121
+torchvision==0.18.1+cu121
+torchaudio==2.3.1+cu121
